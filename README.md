@@ -1,19 +1,19 @@
 # lsm frontend
 
 ### setup instruction
-1. clone the project 
+1. Clone the project 
  ---
-   git clone--https://github.com/Rauukr/lms-frontend.git
+    git clone--https://github.com/Rauukr/lms-frontend.git
 ---
-2.Move into the directory
+2. Move into the directory
 ---
-  cd lsm frontend
+    cd lsm frontend
 ---     
-3. install dependencies
+3. Install dependencies
 ---
-npm i
+    npm i
 ---
-4.Run the server
+4. Run the server
 ---
-npm run dev
+    npm run dev
 ---
