@@ -17,3 +17,37 @@
 ---
     npm run dev
 ---
+
+
+
+### setup instruction for tailswind 
+
+[tailwind official instruction doc](https://tailwindcss.com/docs/guides/create-react-app)
+
+1. Install tailwindcss
+
+---
+    npm install -D tailwindcss
+---
+2. Create tailwind config file 
+
+---
+    npx tailwindcss init
+---
+3. Add file extension to tailwind config file in the content properties
+
+---
+    "./src/**/*.{html,js,jsx,ts,tsx}", "./index.html",
+---
+4. Add the tailwind directive at the top of `indec.css` file 
+ 
+---
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+---    
+5. Add the following details in the plugin property of tailwind config
+
+---
+     [require("daisyui"), require("@tailwindcss/line-clamp")]
+---
