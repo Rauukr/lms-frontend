@@ -11,7 +11,7 @@
 ---     
 3. install dependencies
 ---
-mpm i
+npm i
 ---
 4.Run the server
 ---
